@@ -1,65 +1,240 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-    line-height: 1.6;
+    font-family: "Arial", sans-serif;
+    color: #333333;
+    line-height: 1.7;
+    background: #ffffff;
 }
 
+
+/* Header */
+
 header {
-    background: #0b4f8a;
+    background: #12543D;
     color: white;
-    padding: 20px;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 
 header h1 {
     margin: 0;
+    font-size: 28px;
 }
 
-nav {
-    margin-top: 10px;
-}
+
+/* Navigation */
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    margin-left: 18px;
+    font-size: 15px;
 }
+
+
+nav a:hover {
+    color: #C8EAD9;
+}
+
+
+/* Hero Section */
 
 .hero {
-    padding: 70px 20px;
-    text-align: center;
-    background: #f2f7fb;
+
+    background:
+    linear-gradient(
+        rgba(18,84,61,0.85),
+        rgba(18,84,61,0.85)
+    ),
+    url("images/pharma.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+
+    text-align:center;
+
+    padding:90px 20px;
+
 }
+
 
 .hero h2 {
-    font-size: 36px;
-    color: #0b4f8a;
+
+    font-size:42px;
+    margin-bottom:20px;
+
 }
+
+
+.hero p {
+
+    font-size:20px;
+    max-width:800px;
+    margin:auto;
+
+}
+
+
+/* Main Container */
 
 .container {
-    width: 85%;
-    margin: auto;
-    padding: 40px 0;
+
+    width:85%;
+    max-width:1100px;
+    margin:auto;
+    padding:50px 0;
+
 }
+
+
+h2 {
+
+    color:#12543D;
+    font-size:32px;
+
+}
+
+
+/* Cards */
 
 .card {
-    background: #f7f7f7;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 8px;
+
+    background:#ffffff;
+
+    padding:25px;
+
+    margin:20px 0;
+
+    border-radius:10px;
+
+    border-left:5px solid #1B7F5C;
+
+    box-shadow:
+    0 4px 12px rgba(0,0,0,0.08);
+
 }
+
+
+.card h3 {
+
+    color:#1B7F5C;
+
+}
+
+
+/* Buttons */
 
 .button {
-    background: #0b4f8a;
+
+    display:inline-block;
+
+    background:#1B7F5C;
+
     color:white;
-    padding:12px 25px;
+
+    padding:14px 30px;
+
+    border-radius:6px;
+
     text-decoration:none;
-    border-radius:5px;
+
+    margin-top:20px;
+
 }
 
+
+.button:hover {
+
+    background:#12543D;
+
+}
+
+
+/* Forms */
+
+input,
+textarea {
+
+width:90%;
+
+padding:12px;
+
+border:1px solid #cccccc;
+
+border-radius:5px;
+
+}
+
+
+textarea {
+
+height:120px;
+
+}
+
+
+/* Footer */
+
 footer {
-    background:#333;
-    color:white;
-    text-align:center;
-    padding:20px;
+
+background:#12543D;
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+margin-top:40px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:700px){
+
+header {
+
+display:block;
+text-align:center;
+
+}
+
+
+nav {
+
+margin-top:15px;
+
+}
+
+
+nav a {
+
+display:inline-block;
+
+margin:8px;
+
+}
+
+
+.hero h2 {
+
+font-size:30px;
+
+}
+
+
+.container {
+
+width:90%;
+
+}
+
 }
