@@ -33,11 +33,12 @@ nav a {
     text-decoration: none;
     margin-left: 20px;
     font-size: 25px;
+    font-weight: 600;
 }
 
 
 nav a:hover {
-    color: #C8E6C9;
+    color: #43A047;
 }
 
 
