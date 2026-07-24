@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #0b4f8a;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.hero {
+    padding: 70px 20px;
+    text-align: center;
+    background: #f2f7fb;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #0b4f8a;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.card {
+    background: #f7f7f7;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.button {
+    background: #0b4f8a;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer {
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
